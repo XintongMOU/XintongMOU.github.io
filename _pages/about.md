@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  B.Sc. Computational Finance (Talented Program) · <a href="https://www.cb.cityu.edu.hk/" target="_blank">City University of Hong Kong</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Hong Kong SAR, China</p>
+    <p>📧 <a href="mailto:jiaooozun@gmail.com">jiaooozun@gmail.com</a></p>
+    <p>📧 <a href="mailto:xintonmou2-c@my.cityu.edu.hk">xintonmou2-c@my.cityu.edu.hk</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third-year undergraduate in the **Computational Finance Talented Program** at City University of Hong Kong's College of Business (sGPA: 4.05/4.30, Full Tuition Scholarship). My research interests lie at the intersection of **corporate governance & ESG**, **causal inference**, and **quantitative finance**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently the lead researcher on an independent study supervised by [Prof. LUO Rui](https://www.cb.cityu.edu.hk/) at CityU, examining the causal effects of board composition on ESG disclosure across a panel of over one million corporate records. The project applies the [Callaway & Sant'Anna (2021)](https://doi.org/10.1016/j.jeconom.2020.12.001) difference-in-differences estimator, Social Network Analysis, and Oster's (2019) sensitivity tests to address endogeneity in staggered adoption designs.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In quantitative trading, I placed **23rd out of 2,695 teams (Top 0.85% globally)** as Team Captain in the 2025 Bloomberg Global Trading Competition, managing a $1M simulated portfolio to a $102K realized P&L over five weeks. I have also passed the **CFA Level I** examination.
+
+On the industry side, I interned at **Sinolink Securities** (New Energy / Hydrogen Group) and **Huatai Securities**, where I built quantitative trading strategies, conducted carbon market research, and contributed to a live multi-asset strategy now integrated into the Huatai Zhangle Wealth app. I previously co-founded **DecentraScholars**, a DeSci startup incubated by [HK Tech 300](https://www.hktech300.hk/) and HKSTP, architecting a Multi-Agent System for automated research workflows on a Solana/Arweave data layer.
+
+I am broadly interested in opportunities at the intersection of academic research and applied finance — feel free to reach out.

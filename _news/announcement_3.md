@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-03-01 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+**DecentraScholars** — Co-founded a DeSci startup, securing a competitive seed grant from **HK Tech 300** (SF202503165) and incubation by HKSTP Ideation for a novel decentralized science infrastructure.
