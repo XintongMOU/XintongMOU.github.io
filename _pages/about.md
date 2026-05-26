@@ -11,7 +11,6 @@ profile:
   image_circular: false
   more_info: >
     <p>Hong Kong SAR, China</p>
-    <p>📧 <a href="mailto:jiaooozun@gmail.com">jiaooozun@gmail.com</a></p>
     <p>📧 <a href="mailto:xintonmou2-c@my.cityu.edu.hk">xintonmou2-c@my.cityu.edu.hk</a></p>
 
 selected_papers: false
@@ -40,12 +39,12 @@ I am broadly interested in opportunities at the intersection of academic researc
 
 <!-- Guppy floating fish widget -->
 <div id="guppy-widget">
-  <button id="guppy-btn" onclick="toggleGuppy()" title="Chat with Guppy 🐠" aria-label="Chat with Guppy">
-    🐠
+  <button id="guppy-btn" onclick="toggleGuppy()" title="Chat with Guppy" aria-label="Chat with Guppy">
+    <img src="/assets/img/guppy.png" alt="Guppy" />
   </button>
   <div id="guppy-chat" role="dialog" aria-label="Guppy chat">
     <div id="guppy-header">
-      <span>🐠 &nbsp;Chat with Guppy</span>
+      <span><img src="/assets/img/guppy.png" style="height:18px;vertical-align:middle;margin-right:6px;" />Chat with Guppy</span>
       <button onclick="toggleGuppy()" aria-label="Close">✕</button>
     </div>
     <iframe src="https://arman-bd.github.io/guppylm/"
@@ -65,23 +64,33 @@ I am broadly interested in opportunities at the intersection of academic researc
   z-index: 9999;
 }
 #guppy-btn {
-  width: 54px;
-  height: 54px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   border: none;
-  background: #3d8ef0;
-  font-size: 26px;
+  background: rgba(255,255,255,0.92);
   cursor: pointer;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.22);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.18);
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1;
+  padding: 10px;
+  animation: guppyFloat 3s ease-in-out infinite;
+  transition: box-shadow 0.18s ease;
+}
+#guppy-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15));
 }
 #guppy-btn:hover {
-  transform: scale(1.12);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  animation-play-state: paused;
+}
+@keyframes guppyFloat {
+  0%, 100% { transform: translateY(0px);   }
+  50%       { transform: translateY(-8px);  }
 }
 #guppy-chat {
   display: none;
